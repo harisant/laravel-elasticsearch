@@ -1,9 +1,9 @@
 <?php 
 
-namespace MailerLite\LaravelElasticsearch\Tests;
+namespace Harisant\LaravelElasticsearch\Tests;
 
-use MailerLite\LaravelElasticsearch\Factory;
-use MailerLite\LaravelElasticsearch\Manager;
+use Harisant\LaravelElasticsearch\Factory;
+use Harisant\LaravelElasticsearch\Manager;
 use Elasticsearch;
 use Elasticsearch\Client;
 
