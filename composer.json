@@ -1,5 +1,5 @@
 {
-    "name": "mailerlite/laravel-elasticsearch",
+    "name": "harisant/laravel-elasticsearch",
     "description": "An easy way to use the official PHP ElasticSearch client in your Laravel applications.",
     "keywords": [
         "laravel",
@@ -7,18 +7,18 @@
         "search",
         "client"
     ],
-    "homepage": "https://github.com/mailerlite/laravel-elasticsearch",
+    "homepage": "https://github.com/harisant/laravel-elasticsearch",
     "license": "MIT",
     "authors": [
         {
-            "name": "MailerLite",
-            "email": "info@mailerlite.com"
+            "name": "Harisant",
+            "email": "hari@elangsakti.com"
         }
     ],
     "require": {
         "php": "^7.3|^8.0",
         "ext-json": "*",
-        "elasticsearch/elasticsearch": "^7.11",
+        "elasticsearch/elasticsearch": "^8.0",
         "guzzlehttp/psr7": "^1.7|^2.0",
         "illuminate/contracts": "^7.0|^8.0|^9.0|^10.0",
         "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MailerLite\\LaravelElasticsearch\\": "src"
+            "Harisant\\LaravelElasticsearch\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MailerLite\\LaravelElasticsearch\\Tests\\": "tests"
+            "Harisant\\LaravelElasticsearch\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -55,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MailerLite\\LaravelElasticsearch\\ServiceProvider"
+                "Harisant\\LaravelElasticsearch\\ServiceProvider"
             ],
             "aliases": {
-                "Elasticsearch": "MailerLite\\LaravelElasticsearch\\Facade"
+                "Elasticsearch": "Harisant\\LaravelElasticsearch\\Facade"
             }
         }
     },
