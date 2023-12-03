@@ -9,7 +9,7 @@ use Illuminate\Support\Arr;
 /**
  * Class Manager
  *
- * @package MailerLite\LaravelElasticsearch
+ * @package Harisant\LaravelElasticsearch
  */
 class Manager
 {
