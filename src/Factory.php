@@ -1,6 +1,6 @@
 <?php
 
-namespace MailerLite\LaravelElasticsearch;
+namespace Harisant\LaravelElasticsearch;
 
 use Elasticsearch\Client;
 use Elasticsearch\ClientBuilder;
