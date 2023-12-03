@@ -1,9 +1,9 @@
 <?php 
 
-namespace MailerLite\LaravelElasticsearch\Tests;
+namespace Harisant\LaravelElasticsearch\Tests;
 
-use MailerLite\LaravelElasticsearch\Facade;
-use MailerLite\LaravelElasticsearch\ServiceProvider;
+use Harisant\LaravelElasticsearch\Facade;
+use Harisant\LaravelElasticsearch\ServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 /**
