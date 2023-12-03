@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MailerLite\LaravelElasticsearch\Tests\Console\Command;
+namespace Harisant\LaravelElasticsearch\Tests\Console\Command;
 
-use MailerLite\LaravelElasticsearch\Tests\TestCase;
+use Harisant\LaravelElasticsearch\Tests\TestCase;
 use Elasticsearch\Client;
 use Elasticsearch\Namespaces\IndicesNamespace;
 use Generator;
