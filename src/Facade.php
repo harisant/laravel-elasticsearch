@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade as BaseFacade;
 /**
  * Class Facade
  *
- * @package MailerLite\LaravelElasticsearch
+ * @package Harisant\LaravelElasticsearch
  */
 class Facade extends BaseFacade
 {
