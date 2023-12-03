@@ -1,14 +1,14 @@
 <?php
 
-namespace MailerLite\LaravelElasticsearch;
+namespace Harisant\LaravelElasticsearch;
 
-use MailerLite\LaravelElasticsearch\Console\Command\AliasCreateCommand;
-use MailerLite\LaravelElasticsearch\Console\Command\AliasRemoveIndexCommand;
-use MailerLite\LaravelElasticsearch\Console\Command\AliasSwitchIndexCommand;
-use MailerLite\LaravelElasticsearch\Console\Command\IndexCreateCommand;
-use MailerLite\LaravelElasticsearch\Console\Command\IndexCreateOrUpdateMappingCommand;
-use MailerLite\LaravelElasticsearch\Console\Command\IndexDeleteCommand;
-use MailerLite\LaravelElasticsearch\Console\Command\IndexExistsCommand;
+use Harisant\LaravelElasticsearch\Console\Command\AliasCreateCommand;
+use Harisant\LaravelElasticsearch\Console\Command\AliasRemoveIndexCommand;
+use Harisant\LaravelElasticsearch\Console\Command\AliasSwitchIndexCommand;
+use Harisant\LaravelElasticsearch\Console\Command\IndexCreateCommand;
+use Harisant\LaravelElasticsearch\Console\Command\IndexCreateOrUpdateMappingCommand;
+use Harisant\LaravelElasticsearch\Console\Command\IndexDeleteCommand;
+use Harisant\LaravelElasticsearch\Console\Command\IndexExistsCommand;
 use Elasticsearch\Client;
 use Illuminate\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
@@ -18,7 +18,7 @@ use Laravel\Lumen\Application as LumenApplication;
 /**
  * Class ServiceProvider
  *
- * @package MailerLite\LaravelElasticsearch
+ * @package Harisant\LaravelElasticsearch
  */
 class ServiceProvider extends BaseServiceProvider
 {
