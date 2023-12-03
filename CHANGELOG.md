@@ -1,5 +1,10 @@
 # Changelog
 
+## 11.0.1 - 13-Dec-2023
+
+- Test with elasticsearch/elasticsearch 8.0
+
+
 ## 11.0.0 - 13-Jun-2023
 
 - update namespace and support php 8.2 in github action (thanks @nklmilojevic and @shuvroroy)
