@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MailerLite\LaravelElasticsearch\Console\Command;
+namespace Harisant\LaravelElasticsearch\Console\Command;
 
 use Elasticsearch\Client;
 use Illuminate\Console\Command;
